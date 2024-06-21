@@ -104,7 +104,7 @@ const SingleUser = () => {
 
             try {
                 const responseUI = await axios(`https://codeforces.com/api/user.info?handles=${username}`);
-                console.log(responseUI.status);
+                console.log(responseUI.data.result);
                 let user = responseUI.data.result[0];
                 setUserInfo(user);
                 setError(false);
@@ -122,6 +122,7 @@ const SingleUser = () => {
 
             const responseUS = await axios(`https://codeforces.com/api/user.status?handle=${username}`)
             user = responseUS.data.result;
+            console.log(user)
             setUserSubmissions(user);
         }
 

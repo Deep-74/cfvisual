@@ -35,7 +35,7 @@ const ContestRatingGraph = ({userContests, maxRating}) => {
             pointBackgroundColors.push('red');
         }
         else{
-            pointBackgroundColors.push('rgb(28, 109, 208, 0.9)');
+            pointBackgroundColors.push('rgb(28, 109, 208, 0.9)');       // blue dot in rating graph
         }
     }
 
