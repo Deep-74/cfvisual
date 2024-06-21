@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cfvisual/static/css/main.e15bac6f.css",
+    "main.js": "/cfvisual/static/js/main.f4194a32.js",
+    "static/media/logo.png": "/cfvisual/static/media/logo.313c4e558657665dfaee.png",
+    "static/media/brushed-alum.png": "/cfvisual/static/media/brushed-alum.acc9a88b9257dc3ce2da.png",
+    "index.html": "/cfvisual/index.html",
+    "main.e15bac6f.css.map": "/cfvisual/static/css/main.e15bac6f.css.map",
+    "main.f4194a32.js.map": "/cfvisual/static/js/main.f4194a32.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e15bac6f.css",
+    "static/js/main.f4194a32.js"
+  ]
+}
